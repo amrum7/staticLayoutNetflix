@@ -1,0 +1,185 @@
+/* TOP SECTION */
+
+:root {
+    --primary-color: #E50914;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased; /* Smooth font on level of the pixe */
+    background-color: #000000;
+    color: #808080;
+}
+ul {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none; /* Adds underline, overline, line-through or combo. None = no line is drawn */
+}
+p {
+    margin: 0.5rem 0; /* 1 rem = 16 pixels */
+}
+img {
+    width: 100%;
+}
+.showcase {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url('img/background.jpg') no-repeat center center/cover;
+    box-shadow: inset 20px 20px 25px 30px #000000;
+}
+
+.showcasetop {
+    position: relative;
+    z-index: 2;
+    height: 90px;
+}
+.showcasetop img {
+    width: 165px;
+    position: absolute; /* positioning it inside showcasetop */
+    top: 30%;
+    left: 3%;
+}
+.showcasetop a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.showcase-content {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+}
+.showcase-content h1 {
+    font-weight: 700; 
+    font-size: 5.2rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+.showcase-content p {
+    color: #fff;
+    font-weight: 400; 
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #E50914;
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    margin-right: 0.5rem;
+    outline: none;
+    border-radius: 2px;
+}
+
+.btn-rounded {
+    border-radius: 5px;
+}
+.btn-xl {
+    font-size: 2rem;
+    padding: 1.5rem 2.1rem;
+    text-transform: uppercase;
+}
+.btn-lg {
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+}
+
+/* Gray Lines */
+
+hr {
+    border-top: 10px solid #222222;
+}
+
+/* Second SECTION */
+
+.section1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 200px;
+    padding-top: 10rem;
+}
+
+.rightside {
+    width: 50%;
+    height: 30em;
+    background: url('./img/tv.png') no-repeat;
+}
+
+.section1 h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+.section1 p {
+    color: #fff;
+    font-weight: 200; 
+    font-size: 2rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+
+/* Third SECTION */
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside2 {
+    width: 50%;
+    height: 30em;
+    background: url('./img/mobile.jpg') no-repeat center;
+}
+
+.rightside2 {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-top: 10rem;
+}
+.section2 h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+.section2 p {
+    color: #fff;
+    font-weight: 200; 
+    font-size: 2rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
